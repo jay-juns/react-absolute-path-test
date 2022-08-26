@@ -4,7 +4,7 @@ import Dev from 'dev/dev'
 
 function Test() {
   const [isOpen, setIsOpen] = useState(false);
-  const toggleOption = () => setIsOpen((isOpen) => !isOpen)
+  const toggleOption = () => setIsOpen((show) => !show)
   const ref = useRef(null);
 
   const handleClickOutSide = (e) => {
@@ -19,7 +19,7 @@ function Test() {
     return () => {
       document.removeEventListener('mousedown', handleClickOutSide)
     }
-  },[])
+  },[isOpen])
 
   return (
     <div>
