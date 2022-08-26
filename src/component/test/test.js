@@ -22,10 +22,10 @@ function Test() {
   },[isOpen])
 
   return (
-    <div>
+    <div className='wrapper'>
         <button className='btn' onClick={toggleOption}>클릭</button>
         {isOpen ? (
-          <div ref={ref}>
+          <div className='open_area' ref={ref}>
             open?
           </div>
         ) : ''}

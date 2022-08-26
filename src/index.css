@@ -3,7 +3,17 @@ body {
  margin:0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  position:relative
+}
+
+.open_area {
+  position:absolute;
+  left: 38px;
+  top: 15px;
+  background-color:#fff;
+  padding:20px;
+  border:1px solid #eee;
+  border-radius:8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
