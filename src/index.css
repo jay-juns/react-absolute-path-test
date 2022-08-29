@@ -21,3 +21,9 @@ body {
   border-radius:8px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.react-calendar__month-view__weekdays__weekday:last-child {
+  color:#6464d4
+}
+.react-calendar__month-view__weekdays__weekday:first-child {
+  color:#d10000
+}
