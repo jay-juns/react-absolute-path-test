@@ -3,6 +3,10 @@ body {
  margin:0;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .wrapper {
   position:relative
 }

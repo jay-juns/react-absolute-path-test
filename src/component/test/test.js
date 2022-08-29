@@ -30,7 +30,7 @@ function Test() {
           </div>
         ) : ''}
         <Dev />
-        <button className='btn'>다른 btn</button>
+        <button className='btn' onClick={toggleOption}>다른 btn</button>
     </div>
   )
 }
